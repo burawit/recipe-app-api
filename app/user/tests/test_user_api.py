@@ -55,7 +55,6 @@ class PublicUserApiTests(TestCase):
         # ).exists()
         # self.assertFalse(user_exists)
 
-
     def test_password_too_short_error(self):
         """Test an error is returned if password less than 5 chars."""
         payload = {
